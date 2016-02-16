@@ -1,0 +1,83 @@
+{
+	"extName":{
+		"message": "Напоминалка"
+	},
+	"extShortName":{
+		"message": "Напоминалка"
+	},
+	"extDescription":{
+		"message": "Расширение-напоминалка"
+	},
+
+
+	"opt_timeAlarm":{
+		"message": "Интервал оповещения:"
+	},
+	"opt_timeAlarm_v":{
+		"message": " мин."
+	},
+	"opt_timeIdle":{
+		"message": "Таймер простоя:"
+	},
+	"opt_timeIdle_v":{
+		"message": " мин."
+	},
+
+
+	"opt_head":{
+		"message": "Настройки"
+	},
+
+	"opt_msgHead":{
+		"message": "Заголовок сообщения"
+	},
+
+	"opt_msgBody":{
+		"message": "Текст сообщения"
+	},
+
+	"opt_save_msgHead":{
+		"message": ""
+	},
+
+	"opt_save_msgBody":{
+		"message": "Настройки сохранены"
+	},
+
+
+	"def_msgHead":{
+		"message": ""
+	},
+	"def_msgBody":{
+		"message": "Время пришло!"
+	},
+
+
+	"opt_btnTest":{
+		"message": "Тест"
+	},
+	"opt_btnSave":{
+		"message": "Сохранить"
+	},
+
+	"month_0":{ "message": "Январь" },
+	"month_1":{ "message": "Февраль" },
+	"month_2":{ "message": "Март" },
+	"month_3":{ "message": "Апрель" },
+	"month_4":{ "message": "Май" },
+	"month_5":{ "message": "Июнь" },
+	"month_6":{ "message": "Июль" },
+	"month_7":{ "message": "Август" },
+	"month_8":{ "message": "Сентябрь" },
+	"month_9":{ "message": "Октябрь" },
+	"month_10":{ "message": "Ноябрь" },
+	"month_11":{ "message": "Декабрь" },
+
+	"day_0":{ "message": "Воскресенье" },
+	"day_1":{ "message": "Понедельник" },
+	"day_2":{ "message": "Вторник" },
+	"day_3":{ "message": "Среда" },
+	"day_4":{ "message": "Четверг" },
+	"day_5":{ "message": "Пятница" },
+	"day_6":{ "message": "Суббота" }
+}

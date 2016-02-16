@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Options</title>
+		<link href="options.css" rel="stylesheet" type="text/css">
+	</head>
+	<body>
+		<div>
+			<div style="height:100px;"></div>
+			<div style="height:400px;">
+				<div style="width:100px; height:100%; display:inline-block;"></div>
+				<div style="width:400px; height:100%; display:inline-block;"></div>
+			</div>
+		</div>
+
+
+		<div id="body">
+			<div id="content">
+				<div class="headContent" ln="opt_head"></div>
+				<div class="m_blocks">
+					<span ln="opt_timeAlarm" class="label"></span>
+					<span id="timeAlarm_v" class="label"></span>
+					<br/>
+					<div id="sl_timeAlarm"></div>
+				</div>
+
+				<div class="m_blocks">
+					<span ln="opt_timeIdle" class="label"></span>
+					<span id="timeIdle_v" class="label"></span>
+					<br/>
+					<div id="sl_timeIdle"></div>
+				</div>
+				
+				<div class="m_blocks">
+					<span ln="opt_msgHead" class="label"></span>
+					<br/>
+					<input type="text" id="txt_msgHead" class="inpText" />
+				</div>
+
+				<div class="m_blocks">
+					<span ln="opt_msgBody" class="label"></span>
+					<br/>
+					<input type="text" id="txt_timeIdle" class="inpText" />
+				</div>
+
+				<div class="btn_blocks">
+					<button ln="opt_btnTest" id="btn_test"></button>
+					<button ln="opt_btnSave" id="btn_save"></button>
+				</div>
+				<script src="rangeSlider.js"></script>
+				<script src="options.js"></script>
+			</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,83 @@
+{
+	"extName":{
+		"message": "Reminder"
+	},
+	"extShortName":{
+		"message": "Reminder"
+	},
+	"extDescription":{
+		"message": "Extension-reminder"
+	},
+
+
+	"opt_timeAlarm":{
+		"message": "Alert interval:"
+	},
+	"opt_timeAlarm_v":{
+		"message": " min."
+	},
+	"opt_timeIdle":{
+		"message": "Idle timer:"
+	},
+	"opt_timeIdle_v":{
+		"message": " min."
+	},
+
+
+	"opt_head":{
+		"message": "Settigns"
+	},
+
+	"opt_msgHead":{
+		"message": "Headline of message"
+	},
+
+	"opt_msgBody":{
+		"message": "Text message"
+	},
+
+	"opt_save_msgHead":{
+		"message": ""
+	},
+
+	"opt_save_msgBody":{
+		"message": "Settings saved"
+	},
+
+
+	"def_msgHead":{
+		"message": ""
+	},
+	"def_msgBody":{
+		"message": "Warm-up time!"
+	},
+
+
+	"opt_btnTest":{
+		"message": "Test"
+	},
+	"opt_btnSave":{
+		"message": "Save"
+	},
+
+	"month_0":{ "message": "January" },
+	"month_1":{ "message": "February" },
+	"month_2":{ "message": "March" },
+	"month_3":{ "message": "April" },
+	"month_4":{ "message": "May" },
+	"month_5":{ "message": "June" },
+	"month_6":{ "message": "July" },
+	"month_7":{ "message": "August" },
+	"month_8":{ "message": "September" },
+	"month_9":{ "message": "October" },
+	"month_10":{ "message": "November" },
+	"month_11":{ "message": "December" },
+
+	"day_0":{ "message": "Sunday" },
+	"day_1":{ "message": "Monday" },
+	"day_2":{ "message": "Tuesday" },
+	"day_3":{ "message": "Wednesday" },
+	"day_4":{ "message": "Thursday" },
+	"day_5":{ "message": "Friday" },
+	"day_6":{ "message": "Saturday" }
+}

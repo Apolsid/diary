@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Options</title>
+		<link href="index.css" rel="stylesheet" type="text/css">
+	</head>
+	<body>
+		<div id="body">
+			<div id="topPane">
+				<div class="logo"></div>
+				<div id="addRecordItem" class="btn">add</div>
+			</div>
+			<div class="page" id="list0">
+				<div class="content">
+					<div class="t-row">
+						<div class="t-cell" id="midPane">
+							<div id="calendar"></div>
+						</div>
+						<div class="t-cell" id="rightPane">
+							<div id="viewer"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="page" id="list1" style="display:none;">
+				<div class="content">
+					<div class="headContent" ln="opt_head"></div>
+					<div class="m_blocks">
+						<span ln="opt_timeAlarm" class="label"></span>
+						<span id="timeAlarm_v" class="label"></span>
+						<br/>
+						<div id="sl_timeAlarm"></div>
+					</div>
+
+					<div class="m_blocks">
+						<span ln="opt_timeIdle" class="label"></span>
+						<span id="timeIdle_v" class="label"></span>
+						<br/>
+						<div id="sl_timeIdle"></div>
+					</div>
+					
+					<div class="m_blocks">
+						<span ln="opt_msgHead" class="label"></span>
+						<br/>
+						<input type="text" id="txt_msgHead" class="inpText" />
+					</div>
+
+					<div class="m_blocks">
+						<span ln="opt_msgBody" class="label"></span>
+						<br/>
+						<input type="text" id="txt_timeIdle" class="inpText" />
+					</div>
+
+					<div class="btn_blocks">
+						<button ln="opt_btnTest" id="btn_test"></button>
+						<button ln="opt_btnSave" id="btn_save"></button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	<script src="util.js"></script>
+	<script src="RecordItem.js"></script>
+	<script src="dialog.js"></script>
+	<script src="dynamicRule.js"></script>
+	<script src="monthItem.js"></script>
+	<script src="rangeSlider.js"></script>
+	<script src="index.js"></script>
+	</body>
+</html>

@@ -1,0 +1,242 @@
+#topPane{
+	border-bottom: 1px solid gray;
+	padding: 5px;
+}
+
+.logo{
+	background: url("../icon/icon64.png");
+	width: 64px;
+	height: 64px;
+	display: inline-block;
+}
+
+.page{
+	margin: 5px;
+}
+
+
+#pane{
+	width: 100%;
+    margin: 0 auto;
+}
+.t-table{
+	display: table;
+}
+.t-row{
+	display: table-row;
+}
+.t-cell{
+	display: table-cell;
+	vertical-align: top;
+}
+
+#rightPane{
+	width:200px;
+	border-style: solid;
+	border-width: 0 1px 1px 1px;
+	border-color: gray;
+}
+#midPane{
+	overflow: hidden;
+	border-style: solid;
+	border-width: 0 1px 1px 1px;
+	border-color: gray;
+}
+
+#viewer {
+	overflow: auto;
+}
+
+#calendar{
+	text-align: center;
+	white-space: nowrap;
+	width: 800px;
+}
+
+.monthItem{
+	display: inline-block;
+	margin: 5px 10px;
+}
+.monthItem .name{
+	text-align: center;
+	margin: 5px;
+	padding: 2px;
+}
+.monthItem .list{
+	position: relative;
+}
+
+.dayItem{
+	border: 1px solid gray;
+	border-radius: 8px;
+	position: absolute;
+	cursor: pointer;
+	overflow: hidden;
+}
+
+.dayItem.is{
+	background: linear-gradient(to top, rgba(188, 130, 212, 1) 0, rgba(249, 162, 222, 0) 50%);
+}
+
+.btn{
+	display: inline-block;
+	margin: 2px 5px;
+	border: 1px solid gray;
+	border-radius: 5px;
+	cursor: pointer;
+	-webkit-user-select: none;
+}
+
+
+
+.paneItem {
+	margin: 5px;
+	border: 1px solid gray;
+	border-radius: 3px;
+	padding: 1px 3px;
+	cursor: pointer;
+}
+
+
+input.err{
+	border-color: red;
+}
+
+.numberInput{
+	width: 3em;
+	text-align: center;
+}
+
+
+.overNode{
+	top: 0;
+	left: 0;
+	position: absolute;
+	background-color: rgba(255, 255, 255, 0.7);
+}
+.dialog{
+	border: 1px solid black;
+	position: absolute;
+	background-color: white;
+}
+
+.dialog .head{
+	padding: 2px 5px;
+	border-width: 0 0 1px 0;
+	border-color: black;
+	border-style: solid;
+}
+.dialog .content{
+	padding: 8px 10px;
+}
+
+
+.newRecord .t-cell{
+	padding: 2px;
+	vertical-align: middle;
+}
+
+.d-control{
+	text-align: center;
+	margin-top: 5px;
+}
+
+
+#body{
+	width: 1000px;
+	margin: 10px auto;
+	border-radius: 5px;
+	border: 1px solid gray;
+	box-shadow: 5px 5px 5px rgba(150,150,150,.5);
+}
+
+.content{
+	margin: 5px 0 10px 0;
+}
+
+
+.headContent{
+	font-weight: bold;
+	font-size: 16px;
+}
+
+.label{
+	font-size: 15px;
+}
+
+.m_blocks{
+	margin-top: 5px;
+	overflow: hidden;
+}
+
+.btn_blocks{
+	margin-top: 15px;
+	overflow: hidden;
+}
+
+#ln_save, #ln_cancel{
+	display: inline-block;
+}
+
+.f_clear{
+	clear: both;
+}
+
+
+.inpText {
+	width: 349px;
+	margin: 2px;
+	padding: 2px 3px;
+}
+
+.slider{
+	position: relative;
+	margin: 10px;
+	padding: 0 11px;
+}
+
+.slider .bar{
+	height: 10px;
+	border-radius: 5px;
+	background: #e6e6e6;
+	box-shadow: inset 0px 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+.slider .progress{
+	top: 0;
+	left: 11px;
+	position: absolute;
+	height: 10px;
+	background-color: #00B500;
+	border-radius: 5px;
+}
+
+.slider .jack{
+	top: -6px;
+	left: 0;
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	background: white;
+	background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.1));
+	border: 1px solid #ccc;
+	box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+	border-radius: 50%;
+	cursor: pointer;
+}
+
+.slider .jack:after{
+	content: "";
+	display: block;
+	width: 10px;
+	height: 10px;
+	margin: auto;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-size: 100%;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.13), rgba(255, 255, 255, 0));
+	border-radius: 50%;
+}
