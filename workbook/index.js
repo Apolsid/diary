@@ -42,12 +42,25 @@ var managerMonth = {
 			parentNode: this.node,
 			onClickItem: this._onClickItem
 		}));
-		/*this.monthItems.push(new MonthItem({
+		this.monthItems.push(new MonthItem({
 			year:2016,
 			month:2,
 			parentNode: this.node,
 			onClickItem: this._onClickItem
-		}));*/
+		}));
+		this.monthItems.push(new MonthItem({
+			year:2016,
+			month:3,
+			parentNode: this.node,
+			onClickItem: this._onClickItem
+		}));
+		this.monthItems.push(new MonthItem({
+			year:2016,
+			month:4,
+			parentNode: this.node,
+			onClickItem: this._onClickItem
+		}));
+
 	},
 
 	_getRecordItems: function(dayItem) {

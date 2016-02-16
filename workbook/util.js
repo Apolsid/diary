@@ -1,12 +1,16 @@
 (function  (w, d) {
 	var _u = w.Util = {};
 	_u.getNode = function(node) {
-		return node instanceof HTMLElement ? node : d.getElementById(node);
+		return typeof node == "string" ? d.getElementById(node): node;
 	};
 
 	_u.on = function(node, e, f){
 		Array.isArray(node) ? node.forEach(function(item){ _u.getNode(item).addEventListener(e, f); }) :
 								_u.getNode(node).addEventListener(e, f);
+	};
+	_u.rem = function(node, e, f){
+		Array.isArray(node) ? node.forEach(function(item){ _u.getNode(item).removeEventListener(e, f); }) :
+								_u.getNode(node).removeEventListener(e, f);
 	};
 
 	_u.create = function(txt, parentNode, t){

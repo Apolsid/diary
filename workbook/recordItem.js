@@ -1,5 +1,5 @@
 /*var itemData = {
-	type: 0, // 0 - РѕР±С‹С‡РЅРѕРµ, 1 - РІР°Р¶РЅРѕРµ
+	type: 0, // 0 - обычное, 1 - важное
 	msg: "",
 	dateTime: "10.00 01.00.2016",
 	alarm: {},
@@ -21,7 +21,7 @@
 			this.minute = parseInt(sp_time[1]);
 
 			this.year = parseInt(sp_date[0]);
-			this.month = parseInt(sp_date[1]);
+			this.month = parseInt(sp_date[1]) - 1;
 			this.date = parseInt(sp_date[2]);
 
 			this._Date = new Date(this.year, this.month - 1, this.date, this.hour, this.minute);

@@ -125,6 +125,7 @@ input.err{
 	border-width: 0 0 1px 0;
 	border-color: black;
 	border-style: solid;
+	cursor: pointer;
 }
 .dialog .content{
 	padding: 8px 10px;
